@@ -9,3 +9,13 @@ vim.bo.tabstop = 2
 vim.bo.shiftwidth = 2
 vim.bo.expandtab = true
 vim.bo.softtabstop = 2
+
+vim.g.haskell_tools = {
+  hls = {
+    settings = {
+      haskell = {
+        formattingProvider = 'stylish-haskell',
+      },
+    },
+  },
+}
